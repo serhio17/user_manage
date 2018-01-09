@@ -1,0 +1,13 @@
+---
+users:
+  - uusername: stack
+    upassword: stack
+    use_sudo: yes
+
+  - uusername: test
+    upassword: test
+    use_sudo: no
+
+  - uusername: serovdrug 
+    upassword: test
+    use_sudo: yes
