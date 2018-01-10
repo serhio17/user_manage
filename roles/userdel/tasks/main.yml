@@ -1,3 +1,4 @@
 ---
-– name: Deleating user "{{ uusername }}"
-  user: name="{{ uusername }}" state=absent remove=yes
+- name: Deleting user "{{ item.uusername }}"
+  user: name={{ item.uusername }} state=absent remove=yes
+  with_items: '{{users}}'

@@ -4,10 +4,10 @@ users:
     upassword: stack
     use_sudo: yes
 
-  - uusername: test
-    upassword: test
+  - uusername: test1
+    upassword: test1
     use_sudo: no
 
-  - uusername: serovdrug 
-    upassword: test
+  - uusername: test2
+    upassword: test2
     use_sudo: yes

@@ -5,4 +5,5 @@
   become_method: sudo
   
   roles:
-  - role: usercreate
+    - { role: usercreate, tags: usercreate }
+    - { role: userdel, tags: userdel }
